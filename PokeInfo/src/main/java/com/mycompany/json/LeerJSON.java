@@ -15,7 +15,7 @@ public class LeerJSON {
 
         try {
         
- pokemon = objectMapper.readValue(new File("C:\\Users\\javir\\Documents\\NetBeansProjects\\Componentes\\pokemon.json"), Pokemon.class);
+ pokemon = objectMapper.readValue(new File("pokemon.json"), Pokemon.class);
 
         } catch (IOException e) {
             e.printStackTrace();
