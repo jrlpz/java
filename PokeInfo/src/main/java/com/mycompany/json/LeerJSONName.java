@@ -15,7 +15,7 @@ public class LeerJSONName {
 
         try {
         
- results = objectMapper.readValue(new File("C:\\Users\\javir\\Documents\\NetBeansProjects\\Componentes\\nombres.json"), Results.class);
+ results = objectMapper.readValue(new File("nombres.json"), Results.class);
 
         } catch (IOException e) {
             e.printStackTrace();
